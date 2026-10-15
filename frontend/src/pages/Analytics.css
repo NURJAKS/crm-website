@@ -1,0 +1,182 @@
+.analytics-page {
+  padding: 2rem 0;
+}
+
+.analytics-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #1f2937;
+}
+
+.stats-overview {
+  margin-bottom: 3rem;
+}
+
+.stat-card.large {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 3rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.stat-card.large .stat-value {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.stat-card.large .stat-label {
+  font-size: 1.25rem;
+  opacity: 0.9;
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.analytics-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.analytics-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #1f2937;
+}
+
+.status-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.status-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.status-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-name {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.status-count {
+  font-weight: bold;
+  color: #6b7280;
+}
+
+.status-bar {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.status-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s;
+}
+
+.days-chart {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 250px;
+  padding: 1rem;
+}
+
+.day-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.day-bar {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  min-height: 10px;
+  transition: height 0.3s;
+}
+
+.day-label {
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.day-date {
+  font-size: 0.75rem;
+  color: #6b7280;
+  text-align: center;
+}
+
+.source-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.source-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+.source-name {
+  font-weight: 600;
+  color: #1f2937;
+  text-transform: capitalize;
+}
+
+.source-count {
+  font-weight: bold;
+  color: #2563eb;
+  font-size: 1.25rem;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.25rem;
+  color: #6b7280;
+}
+
+.error {
+  color: #dc2626;
+}
+
+@media (max-width: 768px) {
+  .analytics-page h1 {
+    font-size: 2rem;
+  }
+
+  .analytics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .days-chart {
+    flex-wrap: wrap;
+  }
+}
+

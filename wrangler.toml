@@ -1,0 +1,17 @@
+name = "crm-website"
+main = "src/worker/index.ts"
+compatibility_date = "2024-01-01"
+
+[env.production]
+name = "crm-website"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "crm-db"
+database_id = "your-database-id-here"
+
+[vars]
+TELEGRAM_BOT_TOKEN = ""
+TELEGRAM_CHAT_ID = ""
+JWT_SECRET = "dev-secret-key-for-local-testing-change-in-production-12345678901234567890"
+

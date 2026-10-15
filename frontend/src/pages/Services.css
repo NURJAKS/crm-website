@@ -1,0 +1,63 @@
+.services-page {
+  padding: 2rem 0;
+}
+
+.services-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: #1f2937;
+}
+
+.service-section {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  color: #2563eb;
+}
+
+.service-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+.service-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service-content li {
+  padding: 0.75rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.service-content li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #10b981;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .services-page h1 {
+    font-size: 2rem;
+  }
+
+  .service-section {
+    padding: 1.5rem;
+  }
+}
+

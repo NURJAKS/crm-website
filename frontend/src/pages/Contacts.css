@@ -1,0 +1,132 @@
+.contacts-page {
+  padding: 2rem 0;
+}
+
+.contacts-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #1f2937;
+}
+
+.contacts-intro {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #6b7280;
+  margin-bottom: 3rem;
+}
+
+.contacts-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-form-wrapper {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #374151;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.75rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.alert {
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.alert-error {
+  background: #fee2e2;
+  color: #dc2626;
+  border: 1px solid #fca5a5;
+}
+
+.alert-success {
+  background: #d1fae5;
+  color: #059669;
+  border: 1px solid #6ee7b7;
+}
+
+.contact-info {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+}
+
+.contact-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #1f2937;
+}
+
+.info-item {
+  margin-bottom: 1.5rem;
+}
+
+.info-item strong {
+  display: block;
+  color: #374151;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.info-item p {
+  color: #6b7280;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 968px) {
+  .contacts-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts-page h1 {
+    font-size: 2rem;
+  }
+
+  .contact-form-wrapper,
+  .contact-info {
+    padding: 1.5rem;
+  }
+}
+

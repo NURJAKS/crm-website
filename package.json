@@ -1,0 +1,24 @@
+{
+  "name": "crm-website",
+  "version": "1.0.0",
+  "description": "CRM система для управления заявками с интеграцией Telegram",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:migrate": "wrangler d1 migrations apply crm-db",
+    "db:create": "wrangler d1 create crm-db",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20240117.0",
+    "itty-router": "^4.0.23"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
+
