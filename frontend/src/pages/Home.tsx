@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { API_BASE } from '../App';
 import './Home.css';
 
 export default function Home() {

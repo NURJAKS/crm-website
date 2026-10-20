@@ -13,7 +13,7 @@ export default function Settings() {
     newRequests: true,
     statusChanges: true
   });
-  const [loading, setLoading] = useState(false);
+
   const [success, setSuccess] = useState(false);
 
   useEffect(() => {

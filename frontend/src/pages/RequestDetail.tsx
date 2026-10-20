@@ -125,11 +125,7 @@ export default function RequestDetail() {
     }
   }
 
-  const statusNames: Record<string, string> = {
-    new: 'Новая',
-    in_progress: 'В работе',
-    closed: 'Закрыта'
-  };
+
 
   if (loading) {
     return (
