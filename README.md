@@ -2,6 +2,8 @@
 
 > **High-performance, serverless edge-native CRM portal and lead management architecture deployed on Cloudflare Workers (V8 Isolates), Cloudflare D1 distributed SQL database, Web Crypto JWT authentication, and a reactive React 18 client dashboard.**
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Cloudflare%20Pages-00C7B7?logo=cloudflarepages&logoColor=white)](https://crm-frontend-cjz.pages.dev/)
+[![API Workers](https://img.shields.io/badge/API-Cloudflare%20Workers-F38020?logo=cloudflare&logoColor=white)](https://crm-website.nurbekabildaev89.workers.dev/)
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-F38020?logo=cloudflare&logoColor=white)](https://workers.cloudflare.com/)
 [![Cloudflare D1](https://img.shields.io/badge/Cloudflare-D1_SQL-F38020?logo=sqlite&logoColor=white)](https://developers.cloudflare.com/d1/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)

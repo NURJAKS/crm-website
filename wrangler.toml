@@ -8,7 +8,7 @@ name = "crm-website"
 [[d1_databases]]
 binding = "DB"
 database_name = "crm-db"
-database_id = "your-database-id-here"
+database_id = "57d4e266-a33e-4bcc-927b-f92d7b7ded24"
 
 [vars]
 TELEGRAM_BOT_TOKEN = ""
